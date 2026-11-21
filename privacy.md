@@ -134,7 +134,7 @@ The Operator's own account can't be deleted from the app. The Operator removes i
 
 A Library manager can delete a whole Library inside Paperbox. It asks for Face ID and for the Library's name to be typed. It deletes one Library at a time.
 
-Deleting a Library removes its documents, everyone's access to it and the Filer's account for it. Everyone loses access at once and gets an alert. The Operator can restore it for **30 days**, and a final backup is kept until then. After 30 days, the deletion is permanent.
+Deleting a Library removes its documents, everyone's access to it and the Filer's account for it. Everyone loses access at once and gets an alert. The Operator can restore it for **30 days**, and a final backup is kept until then. After 30 days, the Library can no longer be restored in Paperbox. Copies of its PDFs kept elsewhere by the Operator, such as backups or a cloud folder, follow the Operator's own backup settings and may last longer.
 
 ## The demo
 
