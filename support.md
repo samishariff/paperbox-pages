@@ -64,7 +64,7 @@ Account alerts tell you about your own sign-ins, such as a new device connecting
 
 "Home" means your household's server. Paperbox shows this when it can't reach the Companion. Usually the server is restarting, your household's internet is down, or your own connection is weak. When it can tell, Paperbox says which.
 
-Documents you opened recently, or chose to keep on the device, still open. Search by title, sender and date still works. Scans you make wait on the device and are sent when the connection comes back. On a Mac, they are kept safely only once FileVault is on; until then, waiting scans are lost if Paperbox quits, and Paperbox tells you so. Searching the words inside documents needs the connection.
+Documents you opened recently, or chose to keep on the device, still open. Search by title, sender and date still works. Scans you make wait on the device and are sent when the connection comes back. On a Mac, scans wait only once you have confirmed in Paperbox that FileVault is on. Until then, a scan that can't be sent isn't kept: Paperbox says "Nothing was kept", and you need to scan or send it again when the connection is back. Searching the words inside documents needs the connection.
 
 If it lasts, tell your household's Operator.
 
