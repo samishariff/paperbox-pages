@@ -74,7 +74,7 @@ Your household's server has been updated and needs a newer Paperbox. Update the 
 
 ### How do I connect Claude or ChatGPT?
 
-You can connect an AI assistant to one Library. Ask your household's Operator for that Library's connection address. Add it in your assistant's settings, then sign in with your account. Every change the assistant makes is listed on the document and can be undone. To disconnect, open Paperbox and go to Settings, Connected agents.
+You can connect an AI assistant to one Library. Ask your household's Operator for that Library's connection address. Add it in your assistant's settings, then sign in with your account. Every change the assistant makes is listed on the document and can usually be undone. Undo isn't offered when a later edit clashes with that change or its history is uncertain; then fix the detail by hand. To disconnect, open Paperbox and go to Settings, Connected agents.
 
 ### How do I try the demo?
 

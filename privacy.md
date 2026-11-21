@@ -61,7 +61,7 @@ The Operator may also keep backups of the household's server. How long those las
 
 ## In App Store terms
 
-On the App Store, Paperbox's privacy details list three kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices) and **other user content** (your documents, scans, their details, notes and the change log). All three are linked to you. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us.
+On the App Store, Paperbox's privacy details list three kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices) and **other user content** (your documents, scans, their details, notes and the change log). All three are linked to you. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us. The exceptions: anything you upload to the shared demo, which other demo users can see until its nightly reset, and, if your household turns on the Filer with a cloud AI, the contents of new documents, which go to that AI company.
 
 ## AI on your household's server
 
@@ -69,10 +69,10 @@ A household can choose to have an AI help file new documents. This part of the C
 
 For each Library, the Operator decides whether the Filer runs, and which AI it uses:
 
-- **OpenAI**, or
-- **Anthropic**, or
-- **a local model** running on the household's own computers, or
-- **none**.
+- **OpenAI** (available today), or
+- **Anthropic** (planned, not yet available), or
+- **a local model** running on the household's own computers (planned, not yet available), or
+- **none** (the Filer is off).
 
 If the Filer uses OpenAI or Anthropic, the Companion sends that company the contents of each new document. The company uses them to write the details and the Summary, under its own terms and privacy policy and the Operator's agreement with it. With a local model, nothing leaves the household's computers. With none, nothing is sent anywhere. The connection to the AI runs from the household's server. It never runs from your device, and never through us.
 
@@ -80,7 +80,7 @@ If the Filer uses OpenAI or Anthropic, the Companion sends that company the cont
 
 You can choose to connect an AI assistant, such as Claude or ChatGPT, to one Library. Nothing is connected unless you set it up and sign in yourself.
 
-Once connected, the assistant can search that Library, read documents and their text, change their details, add notes, move documents to Trash and upload new ones. Anything it reads is sent to the company that runs the assistant, under that company's own privacy policy. Every change it makes is recorded in the change log and can be undone. It can't permanently delete anything, and it can't change accounts or permissions.
+Once connected, the assistant can search that Library, read documents and their text, change their details, add notes, move documents to Trash and upload new ones. Anything it reads is sent to the company that runs the assistant, under that company's own privacy policy. Every change it makes is recorded in the change log and can usually be undone; Undo isn't offered when a later edit clashes with it or its history is uncertain. It can't permanently delete anything, and it can't change accounts or permissions.
 
 Each connection reaches one Library only. You can remove it at any time in Paperbox, under Settings, Connected agents.
 
@@ -160,6 +160,6 @@ If this policy changes, we'll update this page and its effective date. Big chang
 
 ## Contact
 
-Questions about this policy: <support@DOMAIN>
+Questions about this policy: <paperbox@shariff.io>
 
 This page is hosted on GitHub Pages. GitHub may log visits to it under GitHub's own privacy policy.
