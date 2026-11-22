@@ -4,7 +4,7 @@ title: Paperbox privacy policy
 
 # Paperbox privacy policy
 
-Effective date: 21 November 2026
+Effective date: 21 November 2026. Updated 22 November 2026 to list all five App Store data types.
 
 Paperbox is an app for iPhone, iPad and Mac. It lets you search, read, fix and add documents kept in a Paperless-ngx archive. This policy explains what happens to your information when you use it.
 
@@ -61,7 +61,7 @@ The Operator may also keep backups of the household's server. How long those las
 
 ## In App Store terms
 
-On the App Store, Paperbox's privacy details list three kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices) and **other user content** (your documents, scans, their details, notes and the change log). All three are linked to you. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us. The exceptions: anything you upload to the shared demo, which other demo users can see until its nightly reset, and, if your household turns on the Filer with a cloud AI, the contents of new documents, which go to that AI company.
+On the App Store, Paperbox's privacy details list five kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices), a **device ID** (each signed-in device's push address for Account alerts), **photos or videos** (photos you scan or share, which become a PDF on your device first) and **other user content** (your documents, scans, their details, notes and the change log). All five are linked to you. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us. The exceptions: anything you upload to the shared demo, which other demo users can see until its nightly reset, and, if your household turns on the Filer with a cloud AI, the contents of new documents, which go to that AI company. And if you connect an AI assistant such as Claude or ChatGPT to a Library, the company that runs it also receives the documents it reads.
 
 ## AI on your household's server
 
