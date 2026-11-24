@@ -4,7 +4,7 @@ title: Paperbox privacy policy
 
 # Paperbox privacy policy
 
-Effective date: 21 November 2026. Updated 22 November 2026 to list all five App Store data types.
+Effective date: 21 November 2026. Updated 22 November 2026 to list all five App Store data types, and 24 November 2026 to add the Companion's short-lived request log.
 
 Paperbox is an app for iPhone, iPad and Mac. It lets you search, read, fix and add documents kept in a Paperless-ngx archive. This policy explains what happens to your information when you use it.
 
@@ -54,6 +54,7 @@ The Companion is part of your household's server. It keeps:
 - **A change log with undo.** Every change to a document records what changed, the value before and after, who made it, through which connection, and when. This is what lets you undo a change. It has no end date.
 - **Account alerts** sent to you. Kept for 90 days.
 - **Invite links.** Each works once and expires after 7 days, unless it's cancelled sooner.
+- **A short request log** for troubleshooting. Each line holds only the network address a request came from, its type and whether it worked. It never holds what you searched for, which document or page, or who you are. The log keeps only its most recent lines, about 15 MB, and older lines are overwritten.
 
 Your documents themselves are kept by Paperless-ngx until someone deletes them. A document moved to Trash can be restored until the Trash is emptied.
 
@@ -61,7 +62,7 @@ The Operator may also keep backups of the household's server. How long those las
 
 ## In App Store terms
 
-On the App Store, Paperbox's privacy details list five kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices), a **device ID** (each signed-in device's push address for Account alerts), **photos or videos** (photos you scan or share, which become a PDF on your device first) and **other user content** (your documents, scans, their details, notes and the change log). All five are linked to you. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us. The exceptions: anything you upload to the shared demo, which other demo users can see until its nightly reset, and, if your household turns on the Filer with a cloud AI, the contents of new documents, which go to that AI company. And if you connect an AI assistant such as Claude or ChatGPT to a Library, the company that runs it also receives the documents it reads.
+On the App Store, Paperbox's privacy details list six kinds of data: your **name**, your **user ID** (your account, passkeys and signed-in devices), a **device ID** (each signed-in device's push address for Account alerts), **photos or videos** (photos you scan or share, which become a PDF on your device first), **other user content** (your documents, scans, their details, notes and the change log) and **other diagnostic data** (the Companion's short request log above). The first five are linked to you; the request log isn't. They are used only to make the app work, never to track you, and they are kept on your household's server, not by us. The exceptions: the shared demo, where anything you upload can be seen by other demo users until its nightly reset, and where every request is logged with its network address, type and result even if you upload nothing (those log lines can outlast the reset, because the log is trimmed by size, not by night), and, if your household turns on the Filer with a cloud AI, the contents of new documents, which go to that AI company. And if you connect an AI assistant such as Claude or ChatGPT to a Library, the company that runs it also receives the documents it reads.
 
 ## AI on your household's server
 
@@ -142,7 +143,7 @@ Paperbox has a demo, reached from "Try the demo" on a new install. It is the one
 
 Everyone who tries the demo shares it. Anything you change or upload there can be seen by other demo users until the next reset. Every night the demo is wiped and reset to the same made-up documents. Please don't upload anything real or personal.
 
-The demo's Filer is off, so nothing you upload is sent to an AI. The demo can't be connected to Claude or ChatGPT, and it sends no alerts. It keeps the same sign-in protections as any other server, such as counting wrong passwords.
+The demo's Filer is off, so nothing you upload is sent to an AI. The demo can't be connected to Claude or ChatGPT, and it sends no alerts. It keeps the same sign-in protections as any other server, such as counting wrong passwords. Like any Companion, it keeps a short request log of each request's network address, type and result, even if you only look around. The nightly reset doesn't clear it: the log keeps its most recent lines, about 15 MB, and overwrites older ones.
 
 ## Children
 
@@ -152,7 +153,7 @@ Paperbox isn't aimed at children. Accounts are created only by a household's Lib
 
 Your household's server holds your information, so your household's Operator is the person to ask to see, correct, export or delete it. You can delete your own account at any time in Paperbox.
 
-We hold none of your information, except what you enter in the demo until its nightly reset, any email you send us, and the reports Apple gives us as described above.
+We hold none of your information, except what you enter in the demo until its nightly reset, the demo's short request log (network address, type and result of each request, overwritten by size), any email you send us, and the reports Apple gives us as described above.
 
 ## Changes to this policy
 
